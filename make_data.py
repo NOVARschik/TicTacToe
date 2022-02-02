@@ -31,7 +31,7 @@ data = pd.DataFrame(columns=list(range(1, 10)) + ['Ans'], dtype=int)
 
 df = pd.DataFrame(data=[[0, 0, 0], [0, 0, 0], [0, 0, 0]])
 field = np.array(df)
-line = 0
+line = 0 # hello
 
 while True:
     field = field.dot(0)
