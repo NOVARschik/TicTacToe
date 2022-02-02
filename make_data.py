@@ -47,8 +47,8 @@ while True:
         else:
             field[x][y] = -1
     if checkWin(field) != 0:
-        line -= 1
         continue
+    print(f'№{line+1}')
     print(field)
     ans = input('Ans: ')
     if ans == '':
