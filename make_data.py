@@ -59,6 +59,6 @@ while True:
     print()
     data = data.append(data_line, ignore_index=True)
     line += 1
-
+data.drop_duplicates()
 data.to_csv(f'tic-tac-toe_datasets/{time.strftime("%d.%m.%Y---%H-%M", time.localtime())}.csv', index=False)
 print(data)
